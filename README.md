@@ -17,24 +17,24 @@ U Setup klasi se određuje stranica koja se testira, te bira driver koji se kori
 
 
 ## LoginTest.java
-LoginTest klasa testira tri načina logiranja:
-	1. LoginOnlyMail - pokušaj prijave samo pomoću mail-a
-	2. LoginOnlyPassword - pokušaj prijave samo pomoću lozinke
-	3. LoginIncorrectCredentials - pokušaj prijave s krivim podacima
+LoginTest klasa testira tri načina logiranja:</br>
+&emsp;1. LoginOnlyMail - pokušaj prijave samo pomoću mail-a</br>
+&emsp;2. LoginOnlyPassword - pokušaj prijave samo pomoću lozinke</br>
+&emsp;3. LoginIncorrectCredentials - pokušaj prijave s krivim podacima
 
 
 ## SearchTest.java
-SearchTest klasa testira tri različita pretraživanja:
-	1. EmptySearch - pokušaj pretraživanja bez unosa
-	2. RandomTextSearch - pretraživanje s besmislenim tekstom
-	3. ItemSearch - pretraživanje određenog proizvoda
+SearchTest klasa testira tri različita pretraživanja:</br>
+&emsp;1. EmptySearch - pokušaj pretraživanja bez unosa</br>
+&emsp;2. RandomTextSearch - pretraživanje s besmislenim tekstom</br>
+&emsp;3. ItemSearch - pretraživanje određenog proizvoda
 
 
 ## ItemTest.java
-ItemTest klasa testira interakciju s proizvodom:
-	1. FavoriteItem - dodavanje proizvoda u favorite
-	2. CompareItem - dodavanje proizvoda na usporedbu
-	3. AddItemToCart - dodavanje proizvoda u košaricu
+ItemTest klasa testira interakciju s proizvodom:</br>
+&emsp;1. FavoriteItem - dodavanje proizvoda u favorite</br>
+&emsp;2. CompareItem - dodavanje proizvoda na usporedbu</br>
+&emsp;3. AddItemToCart - dodavanje proizvoda u košaricu
 
 
 ## Report

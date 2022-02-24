@@ -5,7 +5,7 @@
 
 ## O projektu
 Projekt je napravljen za kolegij Metode i tehnike testiranja programske podrške.
-Web stranica <a href="https://www.futura-it.hr/"> Futura IT/</a> testirana je s devet različitih tesnih slučajeva
+Web stranica <a href="https://www.futura-it.hr/"> Futura IT</a> testirana je s devet različitih tesnih slučajeva
 podijeljenih u tri klase. Osim te tri klase, koristi se Setup.java klasa kako bi se lakše postavili potčetni podaci.
 Koristi se tri web drivera za korištenje različitih preglednika. Korišten je priority kako bi se odredio redosljed 
 testiranja, te Thread.sleep kako bi se sačekalo da se stranica učita. Elementima se pristupa pomoću xpath-a, name-a

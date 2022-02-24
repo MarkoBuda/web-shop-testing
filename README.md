@@ -3,14 +3,6 @@
   <h2 align="center">Testiranje web stranice <a href="https://www.futura-it.hr/">futura-it.hr</a></h2>
 </div>
 
-  <h2>Sadržaj</h2>
-- [O projektu](#o-projektu)
-- [Setup.java](#setupjava)
-- [LoginTest.java](#logintestjava)
-- [SearchTest.java](#searchtestjava)
-- [ItemTest.java](#itemtestjava)
-- [Autor](#autor)
-
 ## O projektu
 Projekt je napravljen za kolegij Metode i tehnike testiranja programske podrške.
 Web stranica <a href="https://www.futura-it.hr/"> Futura IT/</a> testirana je s devet različitih tesnih slučajeva

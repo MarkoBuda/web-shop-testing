@@ -38,7 +38,7 @@ ItemTest klasa testira interakciju s proizvodom:
 
 
 ## Report
-<img src="/images/sure-fire.png" alt="report" width="1242" height="565">
+<img src="/images/report.png" alt="report" width="1242" height="565">
 
 
 ## Autor

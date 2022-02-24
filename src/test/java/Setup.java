@@ -5,16 +5,15 @@ import org.openqa.selenium.opera.OperaDriver;
 
 
 public class Setup {
-    public WebDriver driver;
     public String testURL = "https://www.futura-it.hr/";
     public String browser = "Chrome";
 
     public WebDriver SetupDriver() { //default browser is Google Chrome
-        if(browser == "Edge"){
+        if(browser.equals("Edge")){
             System.setProperty("webdriver.edge.driver", "msedgedriver.exe");
             return new EdgeDriver();
         }
-        else if( browser == "Opera"){
+        else if( browser.equals("Opera")){
             System.setProperty("webdriver.chrome.driver", "operadriver.exe");
             return new OperaDriver();
         }else {

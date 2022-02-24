@@ -29,7 +29,7 @@ public class ItemTest {
         Thread.sleep(2000);
         WebElement favoriteCheckBox = driver.findElement(By.id("fav_136923"));
         js.executeScript("arguments[0].click();", favoriteCheckBox);
-        Thread.sleep(5000);
+        Thread.sleep(8000);
         WebElement heartCountText = driver.findElement(By.xpath("//*[@id=\"top\"]/div[2]/div/div[4]/div[3]/a/i/span"));
         Assert.assertEquals(heartCountText.getText(), "1");
     }
@@ -37,7 +37,7 @@ public class ItemTest {
     public void CompareItem() throws InterruptedException {
         WebElement compareCheckBox = driver.findElement(By.id("com_136923"));
         js.executeScript("arguments[0].click();", compareCheckBox);
-        Thread.sleep(5000);
+        Thread.sleep(8000);
         WebElement compareCountText = driver.findElement(By.xpath("//*[@id=\"top\"]/div[2]/div/div[4]/div[2]/a/i/span"));
         Assert.assertEquals(compareCountText.getText(), "1");
     }
@@ -45,10 +45,10 @@ public class ItemTest {
     public void AddItemToCart() throws InterruptedException {
         WebElement addCartBox = driver.findElement(By.xpath("//*[@id=\"item_136923\"]/div/div[3]/ul/li[3]/a/i"));
         js.executeScript("arguments[0].click();", addCartBox);
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         WebElement continueShoppingBox = driver.findElement(By.xpath("//*[@id=\"product-page\"]/div/div[5]/div/div[1]/a"));
         continueShoppingBox.click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         WebElement compareCountText = driver.findElement(By.xpath("//*[@id=\"top\"]/div[2]/div/div[4]/div[1]/div/div/a/i/span"));
         Assert.assertEquals(compareCountText.getText(), "1");
     }

@@ -1,17 +1,15 @@
 <br />
 <div align="center">
-  <h2 align="center">Testiranje web stranice <a href="https://www.futura-it.hr/">futura-it.hr/</a></h2>
+  <h2 align="center">Testiranje web stranice <a href="https://www.futura-it.hr/">futura-it.hr</a></h2>
 </div>
 
   <h2>Sadržaj</h2>
-  <ul>
-    <li><a href="#o-projektu">O projektu</a></li>
-	<li><a href="#setup">Setup.java</a></li>
-    <li><a href="#Login">LoginTest.java</a></li>
-	<li><a href="#Search">SearchTest.java</a></li>
-	<li><a href="#Item">ItemTest.java</a></li>
-    <li><a href="#autor">Autor</a></li>
-  </ul>
+- [O projektu](#o-projektu)
+- [Setup.java](#setupjava)
+- [LoginTest.java](#logintestjava)
+- [SearchTest.java](#searchtestjava)
+- [ItemTest.java](#itemtestjava)
+- [Autor](#autor)
 
 ## O projektu
 Projekt je napravljen za kolegij Metode i tehnike testiranja programske podrške.
